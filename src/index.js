@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import App from './App'
+import App from './components/App/App'
 // 引入这个为了记录页面上的性能
 import reportWebVitals from './reportWebVitals'
 
