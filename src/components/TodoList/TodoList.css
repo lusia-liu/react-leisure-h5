@@ -1,0 +1,11 @@
+.todo-list-container {
+  /*background-color: aliceblue;*/
+}
+
+.todo-list-box {
+  margin: 20px;
+  padding: 15px;
+  border: 1px dashed #c5c5c5;
+  box-shadow: 5px 5px 15px 1px rgba(190, 190, 200, .6);
+  box-sizing: border-box;
+}
