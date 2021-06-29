@@ -5,9 +5,9 @@ import './index.css'
 export default class List extends Component {
   render() {
     return (
-      <div className="list">
-        <Item />
-      </div>
+      <ul className="list">
+        <Item todoList={this.props.todoList}/>
+      </ul>
     )
   }
 }

@@ -4,9 +4,7 @@ import './index.css'
 export default class Item extends Component {
   render() {
     return (
-      <li>
-        我是item 的lilili
-      </li>
+      this.props.todoList.map(item => <li key={item.id}>{item.name}</li>)
     )
   }
 }
