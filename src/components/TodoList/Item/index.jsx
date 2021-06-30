@@ -4,7 +4,12 @@ import './index.css'
 export default class Item extends Component {
   render() {
     return (
-      this.props.todoList.map(item => <li key={item.id}>{item.name}</li>)
+      <li>
+        <label>
+          <input type="checkbox" className="input" />
+          <span>吃饭</span>
+        </label>
+      </li>
     )
   }
 }

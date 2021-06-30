@@ -6,7 +6,7 @@ export default class List extends Component {
   render() {
     return (
       <ul className="list">
-        <Item todoList={this.props.todoList}/>
+        <Item todoList={this.props.todoList} />
       </ul>
     )
   }
